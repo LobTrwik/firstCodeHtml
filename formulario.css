@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    position: absolute;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+
+
+
+#titulo{
+    font-family: Trebuchet MS, sans-serif;
+    color: rgb(126, 212, 212);
+    margin-left: 41%;
+    font-size: 300%;
+}
+
+#subtitulo{
+    font-family: Gill Sans, sans-serif;
+    color: rgb(126, 212, 212);
+    margin-left: 44%;
+}
+
+
+fieldset {
+    border: 0;
+}
+
+
+input, select, textarea, button {
+    font-family: Gill Sans, sans-serif;
+    font-size: 1em;
+    color: #000000;
+    border-radius: 12px;
+}
+
+
+.campo{
+    margin-bottom: 3em;
+}
+
+
+/* Campo de de Textos: Email, Sexo e Estado */
+.campo label{
+    margin-bottom: 0.2em;
+    color:#5ca3a3;
+    display: block;
+    font-family: Gill Sans, sans-serif;
+    margin-left: 43%;
+    margin-right: auto;
+    width: 10em
+}
+
+.campo, select{
+    color:#000000;
+    min-width: ;
+}
+
+fieldset.grupo.campo{
+    float:left;
+    margin-left: 1em;
+    font-family: Gill Sans, sans-serif;
+}
+
+
+/* todos inputs */
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #000000;
+    box-shadow; 4px 4px 4px #ffffff;
+    display: block;
+    margin-left: 46%;
+    border-radius: 12px;
+}
+
+.campo select option{
+    padding-right: 6em;
+    font-family: Gill Sans, sans-serif;
+    border-radius: 12px;
+}
+
+
+
+/* Seu Estado */
+.estado{
+    position: absolute;
+    left:46%;
+    display: grid;
+    top: 88%;
+}
+.estado .texto-estado{
+    position: relative;
+    color: #5ca3a3;
+    left: -30%;
+    font-family: Gill Sans, sans-serif;
+
+}
+.estado .texto-seu-estado{
+    border: 3px solid #3cff00;
+}
+
+
+
+
+
+
+/* Campo de Input Email */
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background-color: #ffffff;
+}
+
+.botao{
+    position: absolute;
+    font-family: Gill Sans, sans-serif;
+    font-size: 1.4rem;
+    background:#bbc7c5;
+    color: #000000;
+    width: 30%;
+    margin-left: 70vh;
+    border-radius: 12px;
+    margin-top: 2%;
+}
+
+.botao:hover{
+    background-color: rgb(203, 206, 233);
+    box-shadow: insert 2px 2px 2px rgb(181, 230, 225);
+    text-shadow: none;
+    border-radius: 12px;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+

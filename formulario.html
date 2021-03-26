@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+    <title>Cadastre-se</title>
+</head>
+
+
+<body bgcolor="#0a1824">
+    <div id="todo-do-site">
+        <div>
+            <br>
+            <h1 id="titulo"><strong>CADASTRE-SE</strong></h1>
+            <p id="subtitulo"><strong>Complete Suas Informações...</strong></p>
+            <br><br>
+        </div>
+
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome" required><strong>Nome:</strong></label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                
+                <div class="campo">
+                    <label for="sobrenome" required><strong>Sobrenome:</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <label for="email" required><strong>Email:</strong></label>
+                <input type="email" name=Email id="Email">
+            </div>
+
+            <div class="campo">
+                <label><strong>Selecione seu Sexo:</strong></label><br>
+
+                <label>
+                    <input type="radio" name="sexo" value="masculino">  Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="feminino">  Feminino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="outros">  Outros   
+                </label>      
+            </div>
+
+            <div class="estado">
+                <label for="senioridade"><strong class="texto-estado">Estado:</strong></label>
+                <br>
+                <select id="senioridade" required>
+                <option class="texto-seu-estado" selected disabled value="">Seu Estado...</option>
+                <option>Acre</option>
+                <option>Bahia</option>
+                <option>Ceará</option>
+                <option>Espirito Santo</option>
+                <option>Rio de Janeiro</option>
+                <option>São Paulo</option>
+                <option>Sergipe</option> 
+                
+                </select>
+            </div>
+            <div>
+            <br><br><br>
+            <button class="botao" type="submit"><strong>CADASTRAR-SE</strong></button>
+
+        </form>
+    </div>
+</body>
+</html>
